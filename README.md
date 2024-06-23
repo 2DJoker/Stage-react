@@ -1,1 +1,2 @@
 # Stage-react
+npm start
