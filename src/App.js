@@ -1,7 +1,15 @@
-function App() {
-  
+function App() { 
+  return (
+  <div className="wrapper">
+    <div className="sidebar-shadow">
+      <div className="sidebar">
+        <h2>КОРЗИНА</h2>
 
-  return <div className="wrapper">
+        <div className="cartitem">
+          <img height={220} width={240} src="/img/items/yeezy4.jpeg" alt="d"/>
+        </div>
+      </div>
+    </div>
     <header>
       <div className="headerleft">
       <img width={73} height={70} src="/img/cat-logo.jpg" alt="loho"/>
@@ -20,6 +28,10 @@ function App() {
         </li>
       </ul>
     </header>
+
+    <div className="Carousel">
+    
+    </div>
 
   <div className="contentpages">
    <div className="wrapper-search">
@@ -86,7 +98,10 @@ function App() {
       </div>
   </div>
     </div>
-  </div>;
+  </div>
+  );
 }
 
 export default App;
+
+  
