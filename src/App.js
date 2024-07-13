@@ -4,9 +4,23 @@ function App() {
     <div className="sidebar-shadow">
       <div className="sidebar">
         <h2>КОРЗИНА</h2>
+        
+        <div className="cartitem">
+          <img height={130} width={150} src="/img/items/yeezy4.jpeg" alt="Sneakers"/>
+          <div className="item-basket">
+            <p className="p">yeezy 350  black dogs стильные какашки </p>
+            <b>359.99 $</b>
+          </div>
+          <img className="picture" height={17} width={17} src="/img/plus.png" alt="remove"/>
+        </div>
 
         <div className="cartitem">
-          <img height={220} width={240} src="/img/items/yeezy4.jpeg" alt="d"/>
+          <img height={130} width={150} src="/img/items/yeezy4.jpeg" alt="Sneakers"/>
+          <div className="item-basket">
+            <p className="p">yeezy 350  black dogs стильные какашки </p>
+            <b>359.99 $</b>
+          </div>
+          <img className="picture" height={17} width={17} src="/img/plus.png" alt="remove"/>
         </div>
       </div>
     </div>
