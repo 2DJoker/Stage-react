@@ -4,7 +4,7 @@ function App() {
     <div className="sidebar-shadow">
       <div className="sidebar">
         <h2>КОРЗИНА</h2>
-        
+
         <div className="cartitem">
           <img height={130} width={150} src="/img/items/yeezy4.jpeg" alt="Sneakers"/>
           <div className="item-basket">
@@ -22,8 +22,22 @@ function App() {
           </div>
           <img className="picture" height={17} width={17} src="/img/plus.png" alt="remove"/>
         </div>
+        <ul className="CardTotalBlock">
+          <li>
+            <span>Итого:</span>
+            <div></div>
+            <b>799.99 $</b>
+          </li>
+          <li>
+            <span>Доставка</span>
+            <div></div>
+            <b>800 $</b>
+          </li>
+        </ul>
       </div>
     </div>
+    
+
     <header>
       <div className="headerleft">
       <img width={73} height={70} src="/img/cat-logo.jpg" alt="loho"/>

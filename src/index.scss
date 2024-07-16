@@ -165,7 +165,7 @@ header {
 .sidebar {
   position: absolute;
   width: 420px;
-  height: 100%;
+  height: 93%;
   right: 0;
   background-color: #ffffff;
   box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
@@ -182,7 +182,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 120%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
@@ -227,14 +227,34 @@ header {
     margin-left: 10px;
   
   }
-
-  
-  
 }
-
 .item-basket {
   margin-right: 20px;
   margin-top: 20px;
 }
 
+.li1 {
+  display: flex;
+}
 
+.li2{
+  display: flex;
+}
+
+
+.CardTotalBlock {
+
+  li {
+    display: flex;
+    align-items: flex-end;
+
+
+    div {
+      flex: 1;
+      height: 1px;
+      border-bottom: 1px dashed #dfdfdf;
+      position: relative ;
+      top: -3px;
+    }
+  } 
+}
